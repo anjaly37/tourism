@@ -1,0 +1,145 @@
+*
+{
+    padding: 0%;
+    margin: 0%;
+}
+.container{
+    width: 100%;
+
+}
+nav{
+    width: 100%;
+    height:80px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.name
+{
+    color: white;
+    padding-top: 10px;
+    padding-left: 50px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Lato", serif;
+
+    
+}
+ul li{
+    display: inline;
+    margin: 20px;
+}
+.det
+{
+    text-decoration: none;
+    color: white;
+    margin-top: 10px;
+    font-size: 19px;
+    font-weight: bold;
+}
+.det:hover{
+    color: red;
+}
+.content
+{
+    width: 100%;
+  
+}
+img{
+    width: 100%;
+    position: relative;
+}
+.body
+{
+    border-radius: 10px;
+    position: absolute;
+    top:200px;
+    left:40%;
+    border:2px solid black;
+    width: 313px;
+    height: 300px;
+    background-image: "https://tse2.mm.bing.net/th?id=OIP.gfM9zVrpWOvyr78Dy344VQHaFj&pid=Api&P=0&h=180";
+    margin-left: 10px;
+
+}
+.email
+{
+border-radius: 7px;
+margin-top: 20px;
+padding-left: 6px;
+padding-right:94px ;
+padding-top: 10px;
+padding-bottom: 8px;
+margin-bottom: 10px;
+border: 2px solid rgb(234, 231, 231);
+color:black;
+margin-left: 8px;
+font-size: 16px;
+
+}
+.txt1
+{
+    border-radius: 7px;
+    margin-top: 20px;
+    padding-left: 6px;
+    padding-right:94px ;
+    padding-top: 10px;
+    padding-bottom: 8px;
+    margin-bottom: 10px;
+    border: 2px solid rgb(234, 231, 231);
+    color:black;
+    margin-left: 8px;
+    font-size: 16px;
+
+}
+
+.btn
+{
+    text-align: center;
+    width: 295px;
+    background-color: green;
+    padding-top: 8px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 7px;
+    border: 1px solid rgb(234, 231, 231);
+    margin-top: 15px;
+    display: block; 
+    padding-bottom: 8px;
+    margin-left: 8px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.body1
+{
+    margin-top: 30px;
+    border-radius: 10px;
+    position: absolute;
+    top:200px;
+    left:38%;
+    border:2px solid black;
+    width: 313px;
+    height: 100px;
+    margin-left: 10px;
+
+}
+.sign{
+    text-decoration: none;
+    color: #0969da;
+    font-weight: bold;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+.sign:hover{
+    text-decoration:underline;
+}
+p{
+    margin-top: 20px;
+    padding-left: 56px;
+    font-size: 20px;
+    font-weight: 700;
+}
